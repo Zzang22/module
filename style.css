@@ -17,3 +17,21 @@ h2 {
   transform: translateY(4px);
   color: white;
 }
+input[type="number"] {
+  box-sizing: border-box;
+  border: 1 silver;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  width: 75px;
+}
+
+input[type="number"]:focus {
+  border: 2px solid crimson;
+}
+.number {
+  color: hotpink;
+}
+.numbers {
+  color: hotpink;
+}
