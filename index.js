@@ -33,3 +33,15 @@ function init(){
 }
   
 init();
+
+const fontArr = ["red", "yellow", "green", "skyblue", "purple", "orange", "yellowgreen", "gray"];
+let cnt = 0;
+window.onload = function () {
+  ff();
+}
+function ff(){
+  if(cnt == 8) cnt = 0;
+  const font = document.querySelector("#font");
+  font.style.color = fontArr[cnt++];
+  setTimeout("ff()", 500);
+}
