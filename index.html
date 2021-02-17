@@ -8,8 +8,8 @@
   <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-  <h1>Random Number Game</h1>
-  <h2>Generate a number between 0 and <span class="numbers"></span></h2>
+  <h1 id="font">Random Number Game🎊</h1>
+  <h2>Generate a number between <span class="number">0</span> and <span class="numbers"></span></h2>
   <div class="volume-box">
     <!--<input type="range" class="volume" name="volume" min="0" max="200" step="50">-->
     <input type="range" list="tickmarks" class="volume" min="0" max="200"/>
@@ -23,7 +23,7 @@
   </div>
   <form class="game">
     <span>Guess the number:</span>
-    <input type="number" class="game-number"/>
+      <input type="number" class="game-number"/>
     <button class="start" type="submit">play!</button> 
   </form>
   <div class="text"></div>
