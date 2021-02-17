@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+h2 {
+  color: black;
+}
+.start {
+  background-color: whitesmoke;
+  border-color: silver;
+  outline: none;
+}
+.start:active {
+  border: none;
+  outline: none;
+  background-color: steelblue;
+  /*box-shadow: 0 1px #666;*/
+  transform: translateY(4px);
+  color: white;
+}
